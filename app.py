@@ -115,7 +115,7 @@ with st.form('Formulaire-client'):
                 'Celibataire','Divorce'],help='Situation matrimoniale actuelle'
                 
                 )
-            Education = st.selectbox('🎓 Educatiol',options=['Primaire',
+            Education = st.selectbox('🎓 Education',options=['Primaire',
                 'Secondaire','Superieur','Inconnu'],help='Niveau plus haut d\'éducation atteint'
                 
                 )

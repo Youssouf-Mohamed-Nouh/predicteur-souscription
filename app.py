@@ -234,10 +234,11 @@ if submit:
                 conseil = '**Recommadation** : ce client ne néccesite un approche commercial adapté ou cible'
             col_prob1,col_prob2 = st.columns([1,2])
             with col_prob1:
+                delta_val = float(round(proba - 0.5,2))
                 st.metric(
                     label='🎯 Probabilité de souscription',
                     value =f'{proba:.1%}',
-                    delta=round(proba - 0.5,2)
+                    delta=delta_val
                     )
                 st.caption('Différence par rapport à une moyenne de 50 %')
             with col_prob2:
@@ -275,21 +276,5 @@ st.markdown("""
     </div>
 </div>
 """, unsafe_allow_html=True)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     

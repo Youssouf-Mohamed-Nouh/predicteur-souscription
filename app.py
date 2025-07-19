@@ -4,7 +4,7 @@ import joblib
 from datetime import datetime
 import numpy as np
 
-st.set_page_config(initial_sidebar_state='expanded',page_title='Prédicteur Souscription Bancaire - Youssouf',page_icon='🏦',layout='wide')
+st.set_page_config(initial_sidebar_state='expanded',page_title='Prédicteur Souscription Bancaire - Youssouf',page_icon='🎗️',layout='wide')
 
 # source
 @st.cache_resource
